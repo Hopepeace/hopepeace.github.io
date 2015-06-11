@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="../FinalProject.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../CLEPMaths.jpg','../VisualBasics.jpg')">
+
+<div class="container">
+  <header>
+    <a href="/Users/selamtesfaye/MySites/ITE 170/Dreamweaver/Practice" target="_top"><img src="../LogoImg.jpg" alt="My Books" width="140" height="100" id="Insert_logo" style="background-color: #6A5FCA; display: block;" />
+  </header>
+  <div class="sidebar1">
+  <nav>
+     <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Membership</a></li>
+      <li><a href="#">Register a Book</a></li>
+      <li><a href="#">Detailed Books</a></li>
+      <li><a href="#">Books By Course</a></li>
+      <li><a href="#">Helpful Links</a></li>
+      <li><a href="#">Sign In</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    </nav>
+    <aside>
+    </aside>
+  <!-- end .sidebar1 --></div>
+  <article class="content">
+    <h2>MY Books!</h2>
+    <section>
+     <h2>Get Your Books Here!</h2>
+      <p>Student have collaborated together to come up with an idea to provide students with ability to get educational resources with a reasonable price. My Books is a great place to browse throught different subject books that are put by students who have thaken the subject before. It is always adviseable to cross check with the subject you are taking since course resources might change. Also, the books are first come first serve base. The person who make the initial and persistant communication with the book owner gets to have the book.</p>
+    </section>
+    <section>
+      <!--<h2>Clearing Method</h2>-->
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('PhotoShopCS6','','../VisualBasics.jpg',1)"><img id="PhotoShopCS6" src="../PhotosopCS6.jpg" alt="Our collection of books!" width="200" height="200"></a>
+<p>There is a wide range of resources (books) available.  Make sure to take your time and browse through what you want before making decision. </p>
+    </section>
+    <section>
+      <h2>Donate Your Books</h2>
+      <p>It is not always that we want to resale or rent our the books we used.  Just in case you decide that you have a valualble book or educational material please forward it to us.  We will make sure it is put to a good use.  All you need to do is follow the links and tell us how you want to send the material.  We will take care of it after that.  Here is hour contact information.  </p>
+    </section>
+    <!-- end .content --></article>
+  <footer>
+    <address>
+      Contact Us at peacehopeking@yahoo.com or Call us at 703-795-0000
+    </address>
+  </footer>
+  <!-- end .container --></div>
+</body>
+</html>
